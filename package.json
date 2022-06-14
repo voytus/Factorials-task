@@ -9,7 +9,8 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/factorials-testing.js",
+    "start": "nodemon factorials.js"
   },
   "author": "WTM",
   "license": "ISC",
