@@ -1,6 +1,8 @@
 // https://stackoverflow.com/questions/2652536/reverse-factorial
 
-
+const morgan  = require('morgan');
+const mocha =require('mocha');
+const chai = require('chai');
 
 function inverseFactorial(num) {
     let current = 1;
@@ -17,7 +19,9 @@ function inverseFactorial(num) {
     }
     return -1;
 }
-inverseFactorial(120)
+console.log(inverseFactorial(120));
+
+inverseFactorial(120);
 
 
 
