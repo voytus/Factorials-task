@@ -1,21 +1,23 @@
 // https://stackoverflow.com/questions/2652536/reverse-factorial
 
-function inverse_factorial(num){
+
+
+function inverseFactorial(num) {
     let current = 1;
+    let factorial = num;
     while (factorial > current) {
         if (factorial % current) {
             return -1; //not divisible
         }
         factorial /= current;
-        ++current;
+        current += 1;
     }
     if (current == factorial) {
         return current;
     }
     return -1;
 }
-
-console.log(inverse_factorial(120))
+inverseFactorial(120)
 
 
 
