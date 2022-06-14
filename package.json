@@ -7,10 +7,10 @@
   "name": "testing",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "mocha test/factorials-testing.js",
-    "start": "nodemon factorials.js"
+    "start": "nodemon factorials.js",
+    "coverage": "nyc npm factorials-testing.js"
   },
   "author": "WTM",
   "license": "ISC",
