@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
+  },
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "WTM",
+  "license": "ISC",
+  "description": ""
+}
